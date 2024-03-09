@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px;
+  /* height: 800px; */
 }
 
 .titulo img {
@@ -66,4 +66,10 @@ button:hover::before {
   .titulo img {
     width: 300px;
   }
+}
+
+.principal__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
