@@ -1,0 +1,15 @@
+.wraps {
+  width: 200px;
+  background-color: white;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.156);
+}
+
+.title-wrap {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: aqua;
+}
