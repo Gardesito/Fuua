@@ -7,27 +7,51 @@
 }
 
 .box-w {
-  background-color: aqua;
+  background-color: white;
   height: 80px;
   border-radius: 10px;
   display: flex;
+  box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.156);
 }
 
 .imagen img {
-  width: 50px;
-
-  height: 90px;
+  width: 60px;
+  height: 100px;
 }
 .imagen {
-  background-color: black;
+  background-color: rgb(237, 215, 9);
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px 0px 0px 10px;
 }
 .textos {
+  width: 100%;
+  padding: 0.5em 0.8em 0.3em;
+  justify-content: space-between;
+  flex-direction: column;
   width: 100%;
 }
 .caja {
   display: flex;
-  
+  grid-gap: 1.2rem 1.2rem;
+
+  justify-content: center;
 }
+
+.box-w:hover {
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+@media (max-width: 990px) {
+  .caja {
+    flex-wrap: wrap;
+  }
+}
+
+/* @media (max-width: 580px) {
+  .caja {
+    display: grid;
+  }
+} */
