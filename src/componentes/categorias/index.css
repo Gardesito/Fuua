@@ -5,11 +5,30 @@
   border-radius: 10px;
   display: flex;
   box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.156);
+  justify-content: center;
+  cursor: pointer;
+  background-image: url(https://res.cloudinary.com/dtmziqubb/image/upload/v1710180494/IMG_0686_1_i4yiw2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title-wrap {
   display: flex;
-  text-align: center;
   justify-content: center;
-  background-color: aqua;
+  align-items: center;
 }
+h2 {
+  position: relative;
+}
+
+.container-categorias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .container-categorias :hover {
+  transform: scale(0.9, 0.9);
+}
+ */
