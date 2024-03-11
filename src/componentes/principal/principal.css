@@ -1,9 +1,12 @@
 * {
-  background-color: #ffd800;
   padding: 0;
   margin: 0;
 }
 
+.fondo-principal {
+  background-color: #ffd800;
+  
+}
 .titulo {
   display: flex;
   justify-content: center;

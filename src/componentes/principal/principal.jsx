@@ -3,6 +3,7 @@ import { Categorias } from "../categorias";
 
 const Principal = () => {
   return (
+    <div className="fondo-principal">
     <div>
       <div className="titulo">
         <img
@@ -14,6 +15,7 @@ const Principal = () => {
       <div>
         <Categorias />
       </div>
+    </div>
     </div>
   );
 };
