@@ -3,7 +3,7 @@
 .wraps {
   width: 340px;
   background-color: white;
-  height: 50px;
+  height: 65px;
   border-radius: 10px;
   display: flex;
   box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.156);
@@ -24,7 +24,7 @@
 }
 h2 {
   color: aliceblue;
-  overflow: hidden;
+  text-align: center;
 }
 
 .container-categorias {
@@ -37,7 +37,7 @@ h2 {
 
 .ensaladas {
   width: 340px;
-  height: 50px;
+  height: 65px;
   border-radius: 10px;
   display: flex;
   box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.156);
@@ -54,7 +54,7 @@ h2 {
 
 .burger {
   width: 340px;
-  height: 50px;
+  height: 65px;
   border-radius: 10px;
   display: flex;
   box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.156);
@@ -71,7 +71,7 @@ h2 {
 
 .postres {
   width: 340px;
-  height: 50px;
+  height: 65px;
   border-radius: 10px;
   display: flex;
   box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.156);
@@ -87,7 +87,7 @@ h2 {
 
 .bebidas {
   width: 340px;
-  height: 50px;
+  height: 65px;
   border-radius: 10px;
   display: flex;
   box-shadow: 1px 5px 4px rgba(0, 0, 0, 0.156);
@@ -97,6 +97,12 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.carrito img {
+  width: 50px;
+  height: 50px;
+  margin-top: 450px;
 }
 
 /* .container-categorias :hover {

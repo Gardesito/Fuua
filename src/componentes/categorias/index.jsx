@@ -17,26 +17,37 @@ const Categorias = () => {
 
         <div className="ensaladas">
           <li>
-            <NavLink to="/ensaladas">Ensaladas</NavLink>
+            <NavLink to="/ensaladas">
+              <h2>Ensaladas</h2>
+            </NavLink>
           </li>
         </div>
         <div className="burger">
           <li>
-            <NavLink to="/burger">Burger</NavLink>
+            <NavLink to="/burger">
+              <h2>Burger</h2>
+            </NavLink>
           </li>
         </div>
         <div className=" postres">
           <li>
-            <NavLink to="/postres">Postres</NavLink>
+            <NavLink to="/postres">
+              <h2>Postres</h2>
+            </NavLink>
           </li>
         </div>
         <div className="bebidas">
           <li>
-            <NavLink to="/bebidas">Bebidas</NavLink>
+            <NavLink to="/bebidas">
+              <h2>Bebidas</h2>
+            </NavLink>
           </li>
         </div>
       </ul>
+    
     </div>
+
+    
   );
 };
 
