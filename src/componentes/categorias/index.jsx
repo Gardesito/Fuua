@@ -20,17 +20,21 @@ const Categorias = () => {
             <NavLink to="/ensaladas">Ensaladas</NavLink>
           </li>
         </div>
-        <div>
+        <div className="burger">
           <li>
             <NavLink to="/burger">Burger</NavLink>
           </li>
         </div>
-        <li>
-          <NavLink to="/postres">Postres</NavLink>
-        </li>
-        <li>
-          <NavLink to="/bebidas">Bebidas</NavLink>
-        </li>
+        <div className=" postres">
+          <li>
+            <NavLink to="/postres">Postres</NavLink>
+          </li>
+        </div>
+        <div className="bebidas">
+          <li>
+            <NavLink to="/bebidas">Bebidas</NavLink>
+          </li>
+        </div>
       </ul>
     </div>
   );
