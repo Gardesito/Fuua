@@ -44,10 +44,7 @@ const Categorias = () => {
           </li>
         </div>
       </ul>
-    
     </div>
-
-    
   );
 };
 

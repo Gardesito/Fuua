@@ -1,0 +1,74 @@
+.categorias {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.titleCategorias {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.circle-container li {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 5px 5px 5px 0px rgba(178, 178, 178, 0.75);
+}
+
+.circle-container {
+  padding-top: 15px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.circle-container img {
+  height: 30px;
+  width: 30px;
+}
+
+.circle1 {
+  background-color: #ffd71d;
+  padding: 20px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.circle2 {
+  background-color: #9bbd80;
+  padding: 20px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.circle3 {
+  background-color: #ffd71d;
+  padding: 20px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.circle4 {
+  background-color: #9bbd80;
+  padding: 20px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+.circle5 {
+  background-color: #ffd71d;
+  padding: 20px;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.categorias ul :hover {
+  transform: scale(1.07);
+}
