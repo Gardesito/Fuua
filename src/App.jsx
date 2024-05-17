@@ -5,6 +5,8 @@ import { Wraps } from "./componentes/wraps";
 import { Finalizar } from "./componentes/finalizar";
 import { Nav } from "./componentes/navbar/navbar";
 import { Hero } from "./componentes/hero/hero";
+import { Chowfan } from "./componentes/chowfan/chowfan";
+import { Burguer } from "./componentes/burguers/burguer";
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
           {/* <Route path="/" element={<Nav />} /> */}
 
           <Route path="/" element={<Principal />} />
+          <Route path="/chowfan" element={<Chowfan />} />
+          <Route path="/burguer" element={<Burguer />} />
+
           <Route path="/wraps" element={<Wraps />} />
           <Route path="/finalizar" element={<Finalizar />} />
         </Routes>

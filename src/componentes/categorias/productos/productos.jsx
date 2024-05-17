@@ -1,4 +1,3 @@
-import React from "react";
 import "./productos.css";
 import { NavLink } from "react-router-dom";
 
@@ -17,28 +16,36 @@ const Productos = () => {
             </NavLink>
           </li>
           <li className="circle2">
-            <img
-              src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813074/salad_2515150_xgtchy.png"
-              alt=""
-            />
+            <NavLink to="/tentaciones">
+              <img
+                src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813074/salad_2515150_xgtchy.png"
+                alt=""
+              />
+            </NavLink>
           </li>
           <li className="circle3">
-            <img
-              src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813074/burguer_eviezm.png"
-              alt=""
-            />
+            <NavLink to="/burguer">
+              <img
+                src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813074/burguer_eviezm.png"
+                alt=""
+              />
+            </NavLink>
           </li>
           <li className="circle4">
-            <img
-              src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813074/cake_frupql.png"
-              alt=""
-            />
+            <NavLink to="/ensalda">
+              <img
+                src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813074/cake_frupql.png"
+                alt=""
+              />
+            </NavLink>
           </li>
           <li className="circle5">
-            <img
-              src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813459/chow_riefxv.png"
-              alt=""
-            />
+            <NavLink to="/chowfan">
+              <img
+                src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813459/chow_riefxv.png"
+                alt=""
+              />
+            </NavLink>
           </li>
         </ul>
       </div>
