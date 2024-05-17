@@ -24,16 +24,16 @@ const productos = [
 
 const Wraps = () => {
   return (
-    <div className="fondo">
+    /*     <div className="fondo">
       <div>
         <h1>Wraps</h1>
-        <div className="caja">
+        <div className="container">
           {productos.map((producto) => (
             <div className="box-w">
               <div className="imagen">
                 <img src={producto.img} alt="" />
               </div>
-              <div className="textos">
+              <div className="itemName">
                 <h1>{producto.name}</h1>
                 <p>{producto.precio}</p>
               </div>
@@ -42,7 +42,29 @@ const Wraps = () => {
         </div>
         <NavLink to="/finalizar">Finalizar</NavLink>
       </div>
-    </div>
+    </div> */
+
+    <>
+      <div className="header">
+        <h1>Wraps</h1>
+      </div>
+      <div className="container">
+        {productos.map((producto) => (
+          <div className=" boxProducts" key={producto.id}>
+            <div className="imagen"></div>
+            <div className="item">
+              <div className="itemName">
+                <h4>{producto.name}</h4>
+                <p>${producto.precio}</p>
+              </div>
+              <div className="mas">
+                <button className="plus">+</button>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
 

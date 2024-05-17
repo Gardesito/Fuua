@@ -2,6 +2,7 @@ import "./principal.css";
 import { Categorias } from "../categorias";
 import { Hero } from "../hero/hero";
 import { Productos } from "../categorias/productos/productos";
+import { Popular } from "../categorias/popular/popular";
 const Principal = () => {
   return (
     <div className="header">
@@ -21,7 +22,7 @@ const Principal = () => {
         <div>
           <Hero />
           <Productos />
-          <Categorias />
+          <Popular />
         </div>
       </div>
     </div>

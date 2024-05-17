@@ -1,5 +1,7 @@
 import React from "react";
 import "./productos.css";
+import { NavLink } from "react-router-dom";
+
 const Productos = () => {
   return (
     <>
@@ -7,10 +9,12 @@ const Productos = () => {
       <div className="categorias">
         <ul className="circle-container">
           <li className="circle1">
-            <img
-              src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813075/wrap_etmnnk.png"
-              alt=""
-            />
+            <NavLink to="/wraps">
+              <img
+                src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813075/wrap_etmnnk.png"
+                alt=""
+              />
+            </NavLink>
           </li>
           <li className="circle2">
             <img
