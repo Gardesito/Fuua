@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./ensaladas.css";
+import "./postres.css";
 
 const productos = [
   {
@@ -22,11 +22,11 @@ const productos = [
   },
 ];
 
-const Ensaladas = () => {
+const Postres = () => {
   return (
     <>
       <div className="headerProduct">
-        <h1>Ensaladas</h1>
+        <h1>Postres</h1>
       </div>
       <div className="container">
         {productos.map((producto) => (
@@ -49,4 +49,4 @@ const Ensaladas = () => {
   );
 };
 
-export { Ensaladas };
+export { Postres };

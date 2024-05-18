@@ -16,7 +16,7 @@ const Productos = () => {
             </NavLink>
           </li>
           <li className="circle2">
-            <NavLink to="/tentaciones">
+            <NavLink to="/ensaladas">
               <img
                 src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813074/salad_2515150_xgtchy.png"
                 alt=""
@@ -32,7 +32,7 @@ const Productos = () => {
             </NavLink>
           </li>
           <li className="circle4">
-            <NavLink to="/ensalda">
+            <NavLink to="/postres">
               <img
                 src="https://res.cloudinary.com/dtmziqubb/image/upload/v1715813074/cake_frupql.png"
                 alt=""
