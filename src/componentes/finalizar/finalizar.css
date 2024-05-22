@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  background-color: #eaf3f0;
+  border-radius: 20px;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 0px 0px 59px 59px;
+  -moz-border-radius: 0px 0px 59px 59px;
+  -webkit-border-radius: 0px 0px 59px 59px;
+  border: 0px solid #000000;
+}
+
+.info {
+  --UnChacked-color: hsl(0, 0%, 10%);
+  --chacked-color: hsl(216, 100%, 60%);
+  --font-color: rgb(59, 59, 59);
+}
+
+.info {
+  /*   display: flex;
+   */
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  fill: var(--font-color);
+  color: var(--font-color);
+}
+
+/* .info input {
+    display: none;
+  } */
+/* -- */
+
+.checkCarne {
+  display: flex;
+  background: var(--UnChacked-color);
+  border-radius: var(--base-radius);
+  padding: 0.5em;
+}
+
+/*  estilos Checks ....................................*/
+
+.container1 {
+  --UnChacked-color: #eaf3f0;
+  --chacked-color: hsl(135, 99%, 29%);
+  --font-color: rgb(81, 81, 81);
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  fill: var(--font-color);
+  color: var(--font-color);
+}
+
+/* oculta el coso checkbox */
+.container .box {
+  display: none;
+}
+
+/* datos del jaja checkbox */
+.checkmark {
+  background: var(--UnChacked-color);
+  border-radius: var(--base-radius);
+  border-radius: 20px;
+  display: flex;
+  padding: 0.5em;
+}
+
+.name {
+  margin: 0 0.25em;
+}
+.Yes {
+  width: 0;
+}
+.name.Yes {
+  display: none;
+}
+
+/* accion del >D checkbox */
+.container:hover .checkmark,
+.container:hover .icon,
+.container:hover .name {
+  transform: scale(calc(1 + var(--anim-scale)));
+}
+
+/*cuando checkeas*/
+.container input:checked + .checkmark {
+  --UnChacked-color: var(--chacked-color);
+  fill: var(--chacked-font-color);
+  color: var(--chacked-font-color);
+}
+
+.container input:checked ~ .checkmark .name.No {
+  display: none;
+}
+
+.container input:checked ~ .checkmark .name.Yes {
+  width: auto;
+  display: unset;
+}
+
+.po {
+  display: flex;
+  gap: 5px;
+}
+/* Color de boton */
+
+p:first-child {
+  color: black;
+}
+
+p:last-child {
+  color: white;
+}
+
+/*  */
+
+p {
+  font-size: 16px;
+}
+
+.campo {
+  width: 400px;
+  height: 120px;
+  border-radius: 20px;
+  outline: none;
+}
+
