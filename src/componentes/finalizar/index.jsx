@@ -9,7 +9,7 @@ const Finalizar = () => {
     
 
 <div class="container">
-      <div class="item">
+      <div class="item2">
         <img
           src="https://res.cloudinary.com/dtmziqubb/image/upload/v1710192488/IMG_0981_r5qkxz.jpg"
           alt=""

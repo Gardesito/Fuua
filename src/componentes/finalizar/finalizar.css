@@ -11,12 +11,13 @@ button {
   margin: 10px;
 }
 
-.item img {
+.item2 img {
   width: 100%;
   border-radius: 0px 0px 59px 59px;
   -moz-border-radius: 0px 0px 59px 59px;
   -webkit-border-radius: 0px 0px 59px 59px;
   border: 0px solid #000000;
+  padding: 0;
 }
 
 .info {
@@ -139,4 +140,3 @@ p {
   border-radius: 20px;
   outline: none;
 }
-
